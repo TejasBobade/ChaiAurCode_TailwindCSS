@@ -1,0 +1,46 @@
+<!-- 
+ The Below is Not a best method to use Tailwind we are going to use Differnt method.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind Css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+
+    <title>Tailwind Css Start</title>
+</head>
+<body class="bg-black text-white text-5xl p-5">
+    <h1 class="text-8xl bg-slate-950 text-white text-center p-5">
+        Hello world!
+    </h1>
+    <h1 class="text-3xl font-bold underline text-clifford p-5 text-center">
+        Hello world!
+      </h1>
+    <div class="lg:content-auto text-center">
+        <h2>Welcome to the Tailwind World!</h2>
+    </div>
+</body>
+</html>
