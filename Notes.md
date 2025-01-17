@@ -20,3 +20,9 @@
 - tailwind.config.js -> change content: [] with content: ["./dist/*.html"]
 - run the command in terminal ->  npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
 - <link rel="stylesheet" href="./style.css">
+
+# To practice Tailwind Build One Website on Your Own
+- Utility-First Fundamentals 
+- state -> ex. hover, focus, before, after, placeholder, etc.
+- responsive design
+- dark mode
